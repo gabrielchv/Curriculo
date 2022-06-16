@@ -10,10 +10,20 @@ body {
   height: 1085px;
 }
 
-.presentation {
-  padding-top: 8rem;
+.list-group {
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 30rem;
 }
-.presentation h1 {
+
+.list-group-item {
+  background-color: #393e46;
+  border-color: #dbe8d4;
+  color: #dbe8d4;
+}
+
+h1 {
+  padding-top: 8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   color: #dbe8d4;
@@ -21,25 +31,29 @@ body {
   font-size: 4rem;
   margin-bottom: 1.5rem;
 }
-.presentation hr {
+
+hr {
   margin: 1rem auto;
   width: 15rem;
   height: 0.25rem;
   color: #dbe8d4;
 }
-.presentation h3 {
+
+h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #dbe8d4;
   letter-spacing: 0.15rem;
   font-size: 1.6rem;
 }
-.presentation img {
+
+img {
   width: 200px;
   margin: 2.25rem 0;
   border: solid #222831 0.2rem;
 }
-.presentation a {
+
+a {
   color: #dbe8d4;
 }
 

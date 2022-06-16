@@ -12,37 +12,45 @@ body {
   height: 1085px;
 }
 
-// Main
-.presentation {
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    color: $font-color;
-    letter-spacing: 0.3rem;
-    font-size: 4rem;
-    margin-bottom: 1.5rem;
-  }
-  hr {
-    margin: 1rem auto;
-    width: 15rem;
-    height: 0.25rem;
-    color: $font-color;
-  }
-  h3 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    color: $font-color;
-    letter-spacing: 0.15rem;
-    font-size: 1.6rem;
-  }
-  img {
-    width: 200px;
-    margin: 2.25rem 0;
-    border: solid #222831 0.2rem;
-  }
-  a {
-    color: $font-color;
-  }
+.list-group {
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 30rem;
+}
+.list-group-item {
+  background-color: #393e46;
+  border-color: $font-color;
+  color: $font-color;
+}
 
+// Main
+h1 {
   padding-top: 8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  color: $font-color;
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+hr {
+  margin: 1rem auto;
+  width: 15rem;
+  height: 0.25rem;
+  color: $font-color;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: $font-color;
+  letter-spacing: 0.15rem;
+  font-size: 1.6rem;
+}
+img {
+  width: 200px;
+  margin: 2.25rem 0;
+  border: solid #222831 0.2rem;
+}
+a {
+  color: $font-color;
 }
