@@ -7,13 +7,13 @@ body {
 }
 
 .page {
+  padding-top: 8rem;
   height: 1085px;
 }
 
 .list-group {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   margin: 0 auto;
-  width: 30rem;
 }
 
 .list-group-item {
@@ -23,7 +23,6 @@ body {
 }
 
 h1 {
-  padding-top: 8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   color: #dbe8d4;
