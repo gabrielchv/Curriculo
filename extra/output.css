@@ -1,6 +1,9 @@
 body {
   background-color: #393e46;
-  height: 1024px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #dbe8d4;
 }
 
 .presentation {
@@ -15,7 +18,7 @@ body {
   margin-bottom: 1.5rem;
 }
 .presentation hr {
-  margin: 1rem auto 0 auto;
+  margin: 1rem auto;
   width: 15rem;
   height: 0.25rem;
   color: #dbe8d4;
@@ -32,15 +35,8 @@ body {
   margin: 2.25rem 0;
   border: solid #222831 0.2rem;
 }
-.presentation p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 1.25rem;
+.presentation a {
   color: #dbe8d4;
-}
-.presentation .presentation-text {
-  margin: 0 auto;
-  width: 40rem;
 }
 
 /*# sourceMappingURL=output.css.map */
