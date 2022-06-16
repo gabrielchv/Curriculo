@@ -6,6 +6,10 @@ body {
   color: #dbe8d4;
 }
 
+.page {
+  height: 1024px;
+}
+
 .presentation {
   padding-top: 8rem;
 }
