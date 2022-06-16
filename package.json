@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "scss": "sass --watch src/style.scss extra/output.css",
+    "ts" : "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

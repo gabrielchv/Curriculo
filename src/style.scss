@@ -1,0 +1,47 @@
+$font-color: #dbe8d4;
+
+body {
+  background: radial-gradient(#393e46, #393e68);
+}
+
+// Main
+.presentation {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: $font-color;
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    margin: 1rem auto 0 auto;
+    width: 15rem;
+    height: 0.25rem;
+    color: $font-color;
+  }
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: $font-color;
+    letter-spacing: 0.15rem;
+    font-size: 1.6rem;
+  }
+  img {
+    width: 200px;
+    margin: 2.25rem 0;
+    border: solid #222831 0.2rem;
+  }
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: $font-color;
+  }
+  .presentation-text {
+    margin: 0 auto;
+    width: 40rem;
+  }
+
+  margin-top: 8rem;
+}
